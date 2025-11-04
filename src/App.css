@@ -1,0 +1,68 @@
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.course-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.course-row input,
+.course-row select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.remove-btn {
+  background: #ff5e5e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-group button {
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-group button:hover {
+  background-color: #2980b9;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #ecf0f1;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+.success {
+  color: green;
+  font-weight: bold;
+}
