@@ -30,7 +30,7 @@ function CourseRow({ index, data, onChange, onRemove, showRemove }) {
       </select>
       {showRemove && (
         <button className="remove-btn" onClick={() => onRemove(index)}>
-          ❌
+          Remove
         </button>
       )}
     </div>
